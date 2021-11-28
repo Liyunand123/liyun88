@@ -1,0 +1,20 @@
+show databases查看数据库
+create database 创建数据库
+use 选择某个数据库
+select database();查看当前数据库
+drop database 删除数据库
+desc 查看表结构
+create table 表名（字段名，数据类型，可选的约束条件）；创建表
+alter table 表名 add 列名 类型；添加字段
+alter table 表名 change 原名 新名 类型；字段重命名
+alter table 表名 modify 列名 类型及约束；不重命名修改字段类型及约束
+alter table 表面 drop 列名；删除字段
+drop table 表名；删除表
+insert into 表名 （字段名）values（值）；插入数据
+delete from 表名；删除整个表数据
+delete from 表面 where 条件； 删除满足条件的数据
+update 表面 set 列=“值" where 条件；修改满足条件的数据的值
+select * from 表名；查看整个表
+select 字段名 from 表名；查看指定的列
+
+
